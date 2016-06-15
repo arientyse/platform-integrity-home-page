@@ -1,12 +1,38 @@
-ul{
-	list-style-type: none;
-	margin:0;
-	padding:0;
-	position:fixed;
-	top:0;
-	width:100%;
+.button{
+	background-color: #4CAF50;
+	color: white;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
 }
 
-#navigation{
-	float:right;
+.navigation{
+	position:relative;
+	display:inline-block;
+}
+
+.pages{
+	display:none;
+	position:absolute;
+	background-color: #f9f9f9;
+	min-width:160px;
+	box-shadow:0px 8px 16px 0px rgba(0, 0, 0,0.2);
+}
+
+.pages a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+
+.pages a:hover {background-color: #f1f1f1}
+
+.navigation:hover .pages{
+	display:block;
+}
+
+.navigation:hover .button{
+	background-color:#3e8e41;
 }
