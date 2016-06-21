@@ -28,11 +28,12 @@
   -o-transition: all 0.7s ease;
   -ms-transition: all 0.7s ease;
   transition: all 0.7s ease;
+
 }
 
 .container li:hover img {
   -webkit-transform: scale(-1, 1);
+  z-index: -3;
   -moz-transform: scale(-1, 1);
   -o-transform: scale(-1, 1);
-  z-index: -3;
 }
