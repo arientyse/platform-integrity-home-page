@@ -1,44 +1,12 @@
-/*Button Style
-.button{
-	background-color: #09092a;
-	color: white;
-	padding:16px;
-	font-size:16px;
+button{
+	background-color: #4CAF50;
 	border:none;
-	cursor:pointer;
-	float:right;
-	margin-left: 800px;
-}
-Position of Dropdown Content
-.navigation{
-	position:relative;
-	display:inline-block;
-}
-Content
-.pages{
-	display:none;
-	position:absolute;
-	background-color: #f9f9f9;
-	min-width:160px;
-	box-shadow:0px 8px 16px 0px rgba(0, 0, 0,0.2);
-}
-Dropdown Links
-.pages a{
-	color:black;
-	padding:12px 16px;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
 	text-decoration:none;
-	display:block;
+	display:inline-block;
+	font-size:16px;
+	margin:4px 2px;
+	cursor:pointer;
 }
-Dropdown Hover Links Color
-.pages a:hover {background-color: #f1f1f1}
-
-Show Dropdown Menu on Hover
-.navigation:hover .pages{
-	display:block;
-}
-Background Color of Dropdown Menu
-.navigation:hover .button{
-	background-color:#191970;
-}*/
-
-
