@@ -1,5 +1,5 @@
 button{
-	background-color: #0d0d3f;
+	background-color: white;
 	border:none;
 	color:white;
 	padding:15px 32px;
@@ -14,4 +14,21 @@ button{
 
 a{
 	text-decoration:none;
+}
+
+a:link{
+color:#182641;
+}
+
+a:visited{
+color:#7d98cf;
+}
+
+a:hover{
+color:#304c82;
+}
+
+a:active{
+	color:#006633;
+
 }
