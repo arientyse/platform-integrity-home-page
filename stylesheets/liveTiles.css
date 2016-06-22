@@ -14,8 +14,10 @@
 }
 
 .container li:hover p {
-  color: grey;
-  background: rgba(0,0,0,0.7);
+  /* text color */
+    color: grey;
+  /* background color */
+    background: rgba(0,0,0,0.7);
   z-index: 1;
 }
 
@@ -23,17 +25,19 @@
 .container img {
   width: 400px;
   height: 250px;
-  -webkit-transition: all 0.7s ease;
-  -moz-transition: all 0.7s ease;
-  -o-transition: all 0.7s ease;
-  -ms-transition: all 0.7s ease;
-  transition: all 0.7s ease;
+  /* flip transition */
+   -webkit-transition: all 0.7s ease;
+   -moz-transition: all 0.7s ease;
+   -o-transition: all 0.7s ease;
+   -ms-transition: all 0.7s ease;
+   transition: all 0.7s ease;
 
 }
 
 .container li:hover img {
-  -webkit-transform: scale(-1, 1);
-  z-index: -3;
-  -moz-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
+  /* flip transition */
+   -webkit-transform: scale(-1, 1);
+   z-index: -3;
+   -moz-transform: scale(-1, 1);
+   -o-transform: scale(-1, 1);
 }
