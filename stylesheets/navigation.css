@@ -14,22 +14,20 @@ button{
 
 a{
 	text-decoration:none;
-	
 }
 
 a:link{
-color:#182641;
+	color:#182641;
 }
 
 a:visited{
-color:#7d98cf;
+	color:#7d98cf;
 }
 
 a:hover{
-color:#304c82;
+	color:#304c82;
 }
 
 a:active{
 	color:#006633;
-
 }
