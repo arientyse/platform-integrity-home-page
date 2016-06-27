@@ -1,4 +1,4 @@
-button{
+/*button{
 	background-color: white;
 	border:none;
 	color:white;
@@ -30,4 +30,8 @@ a:hover{
 
 a:active{
 	color:#006633;
+}*/
+
+.navbar-brand{
+	padding: 0px 0px;
 }
