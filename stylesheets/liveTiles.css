@@ -1,4 +1,4 @@
-/*------PARAGRAPH------*/
+/*------PARAGRAPH------
 .container li p {
   color: orange;
   background: transparent;
@@ -13,18 +13,18 @@
 }
 
 .container li:hover p {
-  /* text color */
+  /* text color 
     color: grey;
-  /* background color */
+  /* background color 
     background: rgba(0,0,0,0.7);
   z-index: 1;
 }
 
-/*------IMAGES------*/
+/*------IMAGES------
 .container img {
   width: 400px;
   height: 250px;
-  /* flip transition */
+  /* flip transition 
    -webkit-transition: all 0.7s ease;
    -moz-transition: all 0.7s ease;
    -o-transition: all 0.7s ease;
@@ -34,7 +34,7 @@
 }
 
 .container li:hover img {
-  /* flip transition */
+  /* flip transition 
    -webkit-transform: scale(-1, 1);
    z-index: 1;
    -moz-transform: scale(-1, 1);
