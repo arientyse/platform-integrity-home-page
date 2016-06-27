@@ -25,8 +25,8 @@
 .container li {
   float: left;
   position: relative;
-  width: 280px;
-  height: 187px;
+  width: 400px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -57,8 +57,8 @@
 .container li {
   float: left;
   position: relative;
-  width: 280px;
-  height: 187px;
+  width: 400px;
+  height: 300px;
   overflow: hidden;
 }
  
@@ -69,15 +69,14 @@
 .container li p {
   color: transparent;
   background: transparent;
-  font: 30/15px 'Arvo', Helvetica, Arial, sans-serif;
+  font: 30/15px 'Times', Helvetica, Arial, sans-serif;
   text-align: center;
-  text-transform: uppercase;
   
   position: absolute;
   top: 0;
   left: 0;
-  width: 280px;
-  height: 187px; 
+  width: 400px;
+  height: 300px; 
 
 
   -webkit-transition: all 1s ease;
@@ -94,8 +93,8 @@
 }
 /*------IMAGES------*/
 .container img {
-  width: 280px;
-  height: 187px;
+  width: 400px;
+  height: 300px;
   
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -105,6 +104,6 @@
 }
 
 .container li:hover img {
-  width: 320px;
+  width: 220px;
   height: 213px;
 }
