@@ -34,22 +34,6 @@
   cursor: pointer;
 }
 
-/*------LIST------*/
-.container ul {
-  list-style-type: none;
-}
- 
-.container li {
-  float: left;
-  position: relative;
-  width: 400px;
-  height: 300px;
-  overflow: hidden;
-}
- 
-.container li:hover {
-  cursor: pointer;
-}
 /*------PARAGRAPH------*/
 .container li p {
   margin-top: 0px;
