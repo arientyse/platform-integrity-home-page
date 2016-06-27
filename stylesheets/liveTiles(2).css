@@ -67,6 +67,9 @@
 }
 /*------PARAGRAPH------*/
 .container li p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
   color: transparent;
   background: transparent;
   font: 30/15px 'Times', Helvetica, Arial, sans-serif;
@@ -87,6 +90,9 @@
 }
 
 .container li:hover p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: white;
   background: #000; /*fallback for old browsers*/
   background: rgba(0,0,0,0.7);
@@ -105,5 +111,5 @@
 
 .container li:hover img {
   width: 220px;
-  height: 213px;
+  height: 300px;
 }
