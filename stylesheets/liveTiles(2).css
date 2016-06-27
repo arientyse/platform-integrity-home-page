@@ -1,0 +1,109 @@
+/*------CONTAINER------*/
+.container {
+  width: 1120px;
+  margin: 0 auto 50px auto;
+}
+/*------MEDIA QUERIES------*/
+@media screen and (max-width: 1120px) {
+  .container {width: 840px;}
+}
+
+@media screen and (max-width: 840px) {
+  .container {width: 560px;}
+}
+
+@media screen and (max-width: 560px) {
+  .container {width: 280px;}
+}
+
+
+/*------LIST------*/
+.container ul {
+  list-style-type: none;
+}
+
+.container li {
+  float: left;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.container li:hover {
+  cursor: pointer;
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+/*------LIST------*/
+.container ul {
+  list-style-type: none;
+}
+ 
+.container li {
+  float: left;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+ 
+.container li:hover {
+  cursor: pointer;
+}
+/*------PARAGRAPH------*/
+.container li p {
+  color: transparent;
+  background: transparent;
+  font: 30/15px 'Times', Helvetica, Arial, sans-serif;
+  text-align: center;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 300px; 
+
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.container li:hover p {
+  color: white;
+  background: #000; /*fallback for old browsers*/
+  background: rgba(0,0,0,0.7);
+}
+/*------IMAGES------*/
+.container img {
+  width: 400px;
+  height: 300px;
+  
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.container li:hover img {
+  width: 220px;
+  height: 213px;
+}
