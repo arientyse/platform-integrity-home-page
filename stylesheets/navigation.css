@@ -17,7 +17,7 @@ a{
 }
 
 a:link{
-	color:#182641;
+	color:#304c82;
 }
 
 a:visited{
@@ -25,8 +25,8 @@ a:visited{
 }
 
 a:hover{
-	color:#304c82;
-}
+	color:#182641;
+}#304c82
 
 a:active{
 	color:#006633;
