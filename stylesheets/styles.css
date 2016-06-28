@@ -18,20 +18,7 @@ img{
 	max-width:100%;
 }
 
-input[type=text]{
-	width:130px;
-	box-sizing:border-box;
-	border:2px solid #ccc;
-	border-radius:4px;
-	font-size:16px;
-	background-color:white;
-	background-image:url('./searchicon.png');
-	background-position:10px 10px;
-	background-repeat: no-repeat;
-	padding:12px 20px 12px 40px;
-	-webkit-transition:width 0.4s ease-in-out;
-	transition:width 0.4s ease-in-out;
-}
+
 
 input[type=text]:focus{
 	width:100%;
@@ -40,29 +27,24 @@ input[type=text]:focus{
 ul {
 	list-style: none;
 }
-/* img:nth-child(3){
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -ms-filter: blur(3px);
-  -o-filter: blur(3px);
-  filter: blur(3px);
-} */
+
 .jumbotron {
-	background-image:url('http://www.underconsideration.com/brandnew/archives/CareerBuilder_sign.jpg'); 	<img src="" height="600px" width="1425px" align="middle"/>
+	background-image:url('http://www.underconsideration.com/brandnew/archives/CareerBuilder_sign.jpg');
 	padding: 20%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 1425px;
+	height:600px;
 	margin-top: -40px;
 	background-attachment: fixed;
 	background-position:  center -238px;
 }
 .jumbotron h1 {
-	position: absolute;
 	top:18;
 	left:0;
 	padding-left: 20px;
-	color: grey;
+	color: white;
+	text-align: center;
 
 footer {
 	background-color: #182642;
