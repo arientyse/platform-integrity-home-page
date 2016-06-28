@@ -79,6 +79,6 @@
 }
 
 .container li:hover img {
-  width: 220px;
-  height: 300px;
+  width: 1000%;
+  height: 1000%;
 }
