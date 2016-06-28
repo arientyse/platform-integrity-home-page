@@ -14,7 +14,7 @@ li {
 	color: green;
 }
 
-img{
+img {
 	max-width:100%;
 }
 
@@ -45,6 +45,8 @@ ul {
 	padding-left: 20px;
 	color: white;
 	text-align: center;
+}
+
 
 footer {
 	background-color: #182642;
@@ -52,4 +54,5 @@ footer {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
+	text-align:center;
 }
