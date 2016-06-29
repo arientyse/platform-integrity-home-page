@@ -82,3 +82,14 @@
   width: 1000%;
   height: 1000%;
 }
+
+a
+{
+    text-decoration: none;
+    color: transparent;
+}
+
+a:hover
+{
+    color: red;
+}
