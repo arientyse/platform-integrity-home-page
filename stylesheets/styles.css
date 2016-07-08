@@ -1,24 +1,22 @@
-h2 {
+h2{
 	font-family: Verdana;
 	color:#182642;
 }
 
 
-p {
+p{
 	color: orange;
 	margin: 0;
 	padding: 0;
 }
 
-li {
+li{
 	color: green;
 }
 
-img {
+img{
 	max-width:100%;
 }
-
-
 
 input[type=text]:focus{
 	width:100%;
@@ -39,6 +37,7 @@ ul {
 	background-attachment: fixed;
 	background-position:  center -238px;
 }
+
 .jumbotron h1 {
 	top:18;
 	left:0;
@@ -47,7 +46,6 @@ ul {
 	text-align: center;
 	font-family:Verdana;
 }
-
 
 footer {
 	background-color: #182642;
@@ -64,6 +62,7 @@ footer {
 	color: #F7FAFE;
 	margin-top: -30px;	
 }
+
 .mission h3 {
 	font-family:Verdana;
 	padding: 5% 10% ;
